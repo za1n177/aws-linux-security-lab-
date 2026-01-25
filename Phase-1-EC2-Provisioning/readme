@@ -1,0 +1,42 @@
+# Phase 1 – EC2 Provisioning & Secure Access
+
+## Objective
+This phase focuses on securely provisioning an AWS EC2 instance and establishing 
+secure SSH access using key-based authentication.
+
+---
+
+## Steps Performed
+
+### 1️⃣ EC2 Instance Launch
+Launched a Linux EC2 instance using a trusted AMI with minimal configuration and secure defaults.
+
+📸 Evidence:  
+P1-01-ec2-launched.png
+
+---
+
+### 2️⃣ Secure SSH Access
+Connected to the EC2 instance using SSH and key-based authentication.
+
+📸 Evidence:  
+P1-02-ssh-login.png
+
+---
+
+## Security Best Practices Applied
+- Key-based SSH authentication
+- No password-based login
+- Controlled initial access
+- Principle of least exposure
+
+---
+
+## Why This Matters
+Secure instance provisioning and access control are foundational for all cloud security operations. 
+Improper access configuration is a leading cause of cloud breaches.
+
+---
+
+## Next Phase
+➡️ Phase 2 – User & Access Management
